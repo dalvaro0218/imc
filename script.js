@@ -30,7 +30,7 @@ function calcIMC(weight, height) {
 form.onsubmit = (event) => {
   event.preventDefault();
 
-  const weight = inputWeight.value; // value estava com letra a maiúscula "Value"
+  const weight = inputWeight.value; // value estava com letra maiúscula "Value"
   const height = inputHeight.value;
 
   const result = calcIMC(weight, height);
